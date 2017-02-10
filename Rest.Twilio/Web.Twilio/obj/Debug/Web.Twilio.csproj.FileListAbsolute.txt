@@ -35,3 +35,5 @@ D:\Antony\Prakash\Twilio\Rest.Twilio\Web.Twilio\bin\Twilio.Api.xml
 D:\Antony\Prakash\Twilio\Rest.Twilio\Web.Twilio\obj\Debug\Web.Twilio.csprojResolveAssemblyReference.cache
 D:\Antony\Prakash\Twilio\Rest.Twilio\Web.Twilio\obj\Debug\Web.Twilio.dll
 D:\Antony\Prakash\Twilio\Rest.Twilio\Web.Twilio\obj\Debug\Web.Twilio.pdb
+D:\Antony\Prakash\Twilio\Rest.Twilio\Web.Twilio\bin\AutoMapper.dll
+D:\Antony\Prakash\Twilio\Rest.Twilio\Web.Twilio\bin\AutoMapper.xml

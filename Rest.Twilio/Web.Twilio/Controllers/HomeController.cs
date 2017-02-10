@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using T.Library;
+using T.Library.TwilioAccount;
 
 namespace Web.Twilio.Controllers
 {
@@ -13,7 +14,7 @@ namespace Web.Twilio.Controllers
         {
             try
             {
-                var lib = new Test();       
+                var lib = new TwilioAccount().GetAccount();       
             }
             catch (Exception ex)
             {

@@ -30,6 +30,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=4.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.4.2.1\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="RestSharp, Version=105.2.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\RestSharp.105.2.2\lib\net45\RestSharp.dll</HintPath>
       <Private>True</Private>
@@ -48,11 +56,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\Model\TBase.cs" />
+    <Compile Include="Base\Model\TRestException.cs" />
+    <Compile Include="TwilioAccount\Model\TAccount.cs" />
+    <Compile Include="TwilioAccount\Model\TAccountDetail.cs" />
+    <Compile Include="TwilioAccount\Model\TAddress.cs" />
+    <Compile Include="TwilioAccount\Model\TAddressRequest.cs" />
     <Compile Include="TwilioAccount\TwilioAccount.cs" />
     <Compile Include="Base\ConfigurationReader.cs" />
-    <Compile Include="Base\Initialize.cs" />
+    <Compile Include="Base\TTwilioBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test.cs" />
+    <Compile Include="TwilioApiKey\Model\TKey.cs" />
+    <Compile Include="TwilioApiKey\TwilioApiKey.cs" />
+    <Compile Include="TwilioApplication\Model\TApplicationRequest.cs" />
+    <Compile Include="TwilioApplication\Model\TApplication.cs" />
+    <Compile Include="TwilioApplication\TwilioApplication.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="OutGoing\" />

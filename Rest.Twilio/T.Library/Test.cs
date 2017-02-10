@@ -7,7 +7,7 @@ using T.Library.Base;
 
 namespace T.Library
 {
-    public class Test : Initialize
+    public class Test : TTwilioBase
     {
     }
 }
