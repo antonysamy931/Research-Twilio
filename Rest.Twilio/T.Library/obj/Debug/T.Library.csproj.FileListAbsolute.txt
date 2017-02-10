@@ -1,0 +1,10 @@
+D:\Antony\Prakash\Twilio\Rest.Twilio\T.Library\bin\Debug\T.Library.dll
+D:\Antony\Prakash\Twilio\Rest.Twilio\T.Library\bin\Debug\T.Library.pdb
+D:\Antony\Prakash\Twilio\Rest.Twilio\T.Library\bin\Debug\RestSharp.dll
+D:\Antony\Prakash\Twilio\Rest.Twilio\T.Library\bin\Debug\Twilio.Api.dll
+D:\Antony\Prakash\Twilio\Rest.Twilio\T.Library\bin\Debug\RestSharp.xml
+D:\Antony\Prakash\Twilio\Rest.Twilio\T.Library\bin\Debug\Twilio.Api.pdb
+D:\Antony\Prakash\Twilio\Rest.Twilio\T.Library\bin\Debug\Twilio.Api.xml
+D:\Antony\Prakash\Twilio\Rest.Twilio\T.Library\obj\Debug\T.Library.csprojResolveAssemblyReference.cache
+D:\Antony\Prakash\Twilio\Rest.Twilio\T.Library\obj\Debug\T.Library.dll
+D:\Antony\Prakash\Twilio\Rest.Twilio\T.Library\obj\Debug\T.Library.pdb
